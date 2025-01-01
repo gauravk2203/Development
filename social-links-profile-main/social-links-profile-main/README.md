@@ -25,7 +25,7 @@ Users should be able to:
 
 ![](./design/destkop-design.jpg)
 ![](./design/mobile-design.jpg)
-![](./design/desktop-design-states.jpg)
+![](./design/active-states.jpg)
 
 ### Links
 
