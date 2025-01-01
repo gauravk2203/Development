@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/social-link-card-bknSrIjrwP)
+- Live Site URL: [Add live site URL here](https://social-links-card-by-gaurav.netlify.app/)
 
 ## My process
 
@@ -53,8 +53,8 @@ This project helped me improve my understanding of Flexbox for layout alignment 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/gauravk2205)
+- Website - [social-links-card-by-gaurav](https://social-links-card-by-gaurav.netlify.app/)
+- Frontend Mentor - [@gauravk2203](https://www.frontendmentor.io/profile/gauravk2205)
 - Linkedin - [@gauravkadam](https://www.linkedin.com/in/gauravk2203)
 
 
