@@ -41,7 +41,6 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-
 ### What I learned
 
 This project helped me improve my understanding of Flexbox for layout alignment and creating responsive designs. Here are some key takeaways:
@@ -50,11 +49,11 @@ This project helped me improve my understanding of Flexbox for layout alignment 
 .btn > *:hover {
   background-color: hsl(75, 94%, 57%);
 }
+```
 
 ## Author
 
 - Website - [social-links-card-by-gaurav](https://social-links-card-by-gaurav.netlify.app/)
 - Frontend Mentor - [@gauravk2203](https://www.frontendmentor.io/profile/gauravk2205)
 - Linkedin - [@gauravkadam](https://www.linkedin.com/in/gauravk2203)
-
 
