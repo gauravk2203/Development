@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [View my solution](https://www.frontendmentor.io/solutions/bentogrid-DOZc7005UA)
+- Live Site URL: [Visit live site](https://bentogrid-by-gaurav.netlify.app/)
 
 ## My process
 

@@ -23,8 +23,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [View my solution](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H/solutions)
-- Live Site URL: [Visit live site](https://your-live-site-url.com)
+- Solution URL: [View my solution](https://www.frontendmentor.io/solutions/qr-code-8IxbcYgy3P)
+- Live Site URL: [Visit live site](qr-by-gaurav.netlify.app)
 
 ## My Process
 
