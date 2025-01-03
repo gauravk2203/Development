@@ -28,7 +28,7 @@ This project is a responsive recipe page designed to display recipes with their 
 ### Screenshot  
 
 ![Recipe Page Screenshot](./design/desktop-design.jpg) 
-![Recipe Page Screenshot](./design/tablet-design.jpg)
+![Recipe Page Screenshot](./design/mobile-design.jpg)
  
 
 ### Links  
