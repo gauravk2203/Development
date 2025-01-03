@@ -78,4 +78,3 @@ If you would like to contribute to any project or suggest improvements:
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
