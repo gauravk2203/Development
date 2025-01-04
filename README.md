@@ -1,5 +1,4 @@
 
-
 # Frontend Mentor Projects
 
 Welcome to my **Frontend Mentor Projects** repository! This folder contains the solutions for various frontend challenges that I’ve completed through the [Frontend Mentor](https://www.frontendmentor.io).
@@ -23,10 +22,12 @@ Feel free to browse through my projects, learn from them, and provide feedback o
 
 | Project Name               | Description                                           | Status    |
 |----------------------------|-------------------------------------------------------|-----------|
-| **QR Code Component**      | A simple QR code component with responsive design.    | Completed |
-| **Bento Grid**             | A bento-style grid layout that adapts to different screen sizes. | Completed |
-| **Social Links Profile**   | A profile card with social media links, designed with modern UI principles. | Completed |
-| **Blog Preview Card**      | A preview card for a blog post, including image and text layout. | Completed |
+| **QR Code Component**      | 📱 A sleek and responsive QR code component, perfect for modern web applications. | ✅ Completed |
+| **Bento Grid**             | 🍱 A bento-style grid layout that seamlessly adapts to various screen sizes, offering a visually appealing and organized interface. | ✅ Completed |
+| **Social Links Profile**   | 🌐 A stylish profile card featuring social media links, designed with contemporary UI principles for a polished look. | ✅ Completed |
+| **Blog Preview Card**      | 📰 A captivating preview card for blog posts, combining images and text for an engaging user experience. | ✅ Completed |
+| **Recipe Page**            | 🍲 A delightful and responsive recipe page, showcasing culinary creations with elegance. | ✅ Completed |
+| **Four Card Feature Section** | 🎨 A dynamic grid layout that enhances the user interface with interactive and visually appealing card features. | ✅ Completed |
 
 ## Technology Stack
 
@@ -54,6 +55,10 @@ To view or run the projects locally:
    cd frontend-mentor-projects/social-links-profile-main
    # For the next project:
    cd frontend-mentor-projects/blog-preview-card-main/blog-preview-card-main
+   # For the next project:
+   cd frontend-mentor-projects/recipe-page-main
+   # For the next project:
+   cd frontend-mentor-projects/four-card-feature-section-master
    ```
 3. Open the `index.html` file in your browser to view the project.
 

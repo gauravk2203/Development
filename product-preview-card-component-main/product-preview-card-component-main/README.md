@@ -43,8 +43,8 @@ This challenge was all about creating an eye-catching and functional product car
 
 Check out my solution and live demo below:
 
-- [Solution Code](https://github.com/GauravKadamOfficial/product-preview-card)
-- [Live Demo](https://gauravkadamofficial.github.io/product-preview-card/)
+- [Visit My Solution](https://www.frontendmentor.io/solutions/product-preview-card-tBGm6wm1-Q)
+- [See Live](https://app.netlify.com/sites/product-previewcard-by-gaurav/overview)
 
 ---
 

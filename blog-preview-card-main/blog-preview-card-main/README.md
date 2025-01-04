@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Visit My Solution](https://www.frontendmentor.io/solutions/blog-preview-card-8_fQm1GZFX)
+- Live Site URL: [Visit My Site](https://blog-previewcard-by-gaurav.netlify.app/)
 
 ## My Process
 
