@@ -34,7 +34,7 @@
       position: relative;
     }
     .container{
-      min-width: 380px;
+      max-width: 380px;
       height: fit-content;
       background-color:  hsl(0, 0%, 12%);
       padding: 16px;
@@ -64,9 +64,6 @@
       cursor: pointer;
     }
     .btn > *:hover{
-      background-color: hsl(75, 94%, 57%);
-    }
-    .active{
       background-color: hsl(75, 94%, 57%);
     }
     .image{
@@ -102,24 +99,30 @@
        }
     .attribution a { color: hsl(75, 94%, 57%); }
 
-  @media (max-width: 375px) {   
+  @media (max-width: 768px) { 
+    
+  body{
+    background-color: hsl(0, 0%, 8%);
+    }
   .container {
-    min-width: 320px;
+    max-width: 300px;
     padding: 12px;
     border-radius: 16px;
   }
-
+  .name-place {
+    padding: 24px;
+  }
   .image {
     width: 80px;
     height: 80px;
   }
 
   .name-place h1 {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .name-place h3 {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   p.role {
@@ -151,7 +154,7 @@
         <p class="role">"Front-end developer and avid reader."</p>
       </div>
       <div class="btn">
-        <button class="active">GitHub</button>
+        <button>GitHub</button>
         <button>Frontend Mentor</button>
         <button>LinkedIn</button>
         <button>Twitter</button>
