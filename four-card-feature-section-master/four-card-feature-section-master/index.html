@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Four card feature section</title>
+
+
+  <style>
+    :root{
+      --positionValue1 : 120px;
+      --positionValue2 : -120px
+    }
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", serif;
+      font-size: 15px;
+    }
+    p{
+      font-size: 15px;
+      font-weight: 400;
+      color: hsl(229, 6%, 66%);
+    }
+    h1{
+      font-size: 18px;
+      font-weight: 600;
+    }
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .Container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 24px;
+    }
+    .titleContainer{
+      max-width: 540px;
+      height: fit-content;
+      text-align: center;
+    }
+    .titleContainer > p {
+      margin-top: 12px;
+    }
+    .heading{
+      font-size: 24px;
+      font-weight: 600;
+      color: hsl(234, 12%, 34%);
+    }
+    .light{
+      font-weight: 300;
+    }
+
+    .cardContainer{
+      margin: 0 auto;
+      width: fit-content;
+      display: grid;
+      /* grid-template-columns: 1fr 1fr 1fr; */
+      /* grid-template-rows: 1fr 1fr; */
+      grid-template-areas: 
+                          ". a ."
+                          "b . c"
+                          ". d .";
+      padding: 12px;
+      gap: 24px;
+      height: fit-content;    
+      position: relative;
+      top: -65px;                
+    }
+    #card1{
+      grid-area: a;
+      position: relative;
+      top: var(--positionValue1);
+      border-top: 8px solid hsl(0, 78%, 62%);
+    }
+    #card2{
+      grid-area: b;
+      border-top: 8px solid hsl(180, 62%, 55%);
+    }
+    #card3{
+      grid-area: c;
+      border-top:8px solid hsl(212, 86%, 64%) ;
+    }
+    #card4{
+      grid-area: d;
+      position: relative;
+      top: var(--positionValue2);
+      border-top: 8px solid hsl(34, 97%, 64%);
+    }
+    .card{
+      max-width: 350px;
+      display: flex;
+      flex-direction: column;
+      padding: 18px;
+      border-radius: 5px;
+      box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+    }
+    .ImageContainer{
+      margin-top: auto;
+      display: flex;
+      justify-content: end;
+      padding: 24px !important;
+    }
+    .card > *{
+      padding: 8px;
+    }
+
+
+    @media (max-width: 768px){
+      .cardContainer{
+        grid-template-areas: 
+                          "a"
+                          "b"
+                          "c"
+                          "d";
+        gap: 18px;
+        top: 0;
+        margin-top: 44px;
+      }
+      #card1{
+        position: relative;
+        top: 0;
+      }
+      #card2{
+        position: relative;
+        top: 0;
+      }
+      #card3{
+        position: relative;
+        top: 0;
+      }
+      #card4{
+        position: relative;
+        top: 0;
+      }
+      .titleContainer{
+      max-width: 320px;
+      height: fit-content;
+      text-align: center;
+    }
+    .attribution a { 
+      color: hsl(228, 45%, 44%);
+      font-size: 11px;
+    } 
+    }
+
+    .attribution { font-size: 14px; text-align: center; }
+    .attribution a { font-size: 14px; color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="Container" role="main">
+    <div class="titleContainer" role="heading" aria-level="1">
+      <h1 class="heading light">Reliable, efficient delivery</h1>
+      <h1 class="heading">Powered by Technology</h1>
+      <p>Our Artificial Intelligence powered tools use millions of project data points 
+        to ensure that your project is successful</p>
+  </div>
+  <div class="cardContainer">
+    <div class="card" id="card1">
+      <div class="cardTitle">
+        <h1>Team Builder</h1>
+      </div>
+      <div class="cardText">
+        <p>Scans our talent network to create the optimal team for your project</p>
+      </div>
+      <div class="ImageContainer">
+        <img src="./images/icon-team-builder.svg" alt="icon">
+      </div>
+    </div>
+
+    <div class="card" id="card2">
+      <div class="cardTitle">
+        <h1>Supervisor</h1>
+      </div>
+      <div class="cardText">
+        <p>Monitors activity to identify project roadblocks</p>
+      </div>
+      <div class="ImageContainer">
+        <img src="./images/icon-supervisor.svg" alt="icon">
+      </div>
+    </div>
+
+    <div class="card" id="card3">
+      <div class="cardTitle">
+        <h1>Calculator</h1>
+      </div>
+      <div class="cardText">
+        <p>Uses data from past projects to provide better delivery estimates</p>
+      </div>
+      <div class="ImageContainer">
+        <img src="./images/icon-calculator.svg" alt="icon">
+      </div>
+    </div>
+
+    <div class="card" id="card4">
+      <div class="cardTitle">
+        <h1>Karma</h1>
+      </div>
+      <div class="cardText">
+        <p>Regularly evaluates our talent to ensure quality</p>
+      </div>
+      <div class="ImageContainer">
+        <img src="./images/icon-karma.svg" alt="icon">
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="www.linkedin.com/in/gauravk2205">Gaurav Kadam</a>.
+    </p>
+  </footer>
+</body>
+</html>
