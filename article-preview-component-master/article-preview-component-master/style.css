@@ -1,0 +1,278 @@
+/* Media Query */
+@media (max-width: 768px) {
+
+    .Container{
+        display: grid;
+        gap: 12px;
+        grid-template-columns: none !important;
+        grid-auto-rows: min-content !important;
+        max-width: 350px !important;
+        border-radius: 8px;
+    }
+    .imageContainer{
+        width: 100% !important;
+    }
+    .imageContainer img{
+        width: 100% !important;
+        max-height: 200px;
+        object-fit: cover;
+        border-radius: 8px 8px 0 0;
+    }
+    .textContainer{
+        padding: 0 !important;
+    }
+    .textContainer h1{
+        font-size: 1.48rem !important;
+        font-weight: 700 !important;
+    }
+    .textContainer > *{
+        padding: 10px 24px;
+    }
+    .textContainer p{
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+    .authordetails img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .authordetails{
+        display: flex !important;
+        padding: 4px !important;
+        justify-content: space-evenly !important;
+        align-items: center !important;
+        padding: 0 6px !important;
+    }
+    .authordetails > *{
+        padding: 6px;
+    }
+    .share{
+        width: fit-content !important;
+        height: fit-content !important;
+        padding: 8px !important;
+        border-radius: 50% !important;
+        margin-right: 20px !important;
+        margin-bottom: 2px !important;
+        position: relative !important;
+        bottom: 0 !important;
+    }
+    .share img{
+        width: 24px !important;
+        height: 24px !important;
+        object-fit: contain !important;
+    }
+    .Shared-to-Others{
+        display: none;
+        width: 100% !important;
+        height: fit-content !important;
+        padding: 16px !important;
+        justify-content: space-between !important;
+        background-color: var(--Very-Dark-Grayish-Blue);
+        border-radius: 0 0 8px 8px !important;
+        position: relative !important;
+        top: 0 !important;
+        right: 0 !important;
+    }
+    .ShareItems{
+        display: flex !important;
+        width: 65% !important;
+        justify-content: space-evenly !important;
+    }
+    .ShareItems > p{
+        font-size: 18px !important;
+        letter-spacing: 3.5px !important;
+        color: white !important;
+        opacity: 50% !important;
+    }
+    .ShareItems > *{
+        margin-left: 16px !important;
+    }
+    .Shared-to-Others > img{
+        width: 24px !important;
+        height: 24px !important;
+        object-fit: contain !important;
+    }
+    .shareIcon{
+        background-color: white !important;
+        padding: 6px !important;
+        border-radius: 50% !important;
+    }
+
+}
+
+ :root{
+    --Very-Dark-Grayish-Blue : hsl(217, 19%, 35%);
+    --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+    --Grayish-Blue: hsl(212, 23%, 69%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%);
+ }
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    box-sizing: border-box;
+    font-family: "Manrope", serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--Light-Grayish-Blue);
+}
+    p{
+        color: var(--Desaturated-Dark-Blue);
+    }
+.Container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: fit-content;
+    max-width: 700px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 10px rgba(75, 69, 90, 0.15);
+    position: relative;
+    margin-bottom: 20px;
+}
+.imageContainer{
+    grid-row: span 2;
+    width: fit-content;
+}
+.imageContainer img{
+    width: 250px;
+   height: 100%;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+}
+.authorContainerAndshare{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    height: fit-content;
+}
+.authordetails img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.authordetails{
+    display: flex;
+    padding: 4px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 12px;
+}
+.authordetails > *{
+    padding: 8px;
+}
+.authorContainerAndshare{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    bottom: 16px;
+}
+.share{
+    background-color: var(--Light-Grayish-Blue);
+    width: fit-content;
+    height: fit-content;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 36px;
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+}
+.share img{
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+.textContainer h1, .authordetails h2{
+    color: var(--Very-Dark-Grayish-Blue);
+}
+.textContainer{
+    width: 100%;
+    height: fit-content;
+    padding: 12px;
+}
+.textContainer > *{
+    padding: 6px 24px;
+}
+.textContainer h1{
+    font-size: 20px;
+    font-weight: 800;
+}
+.textContainer p{
+    line-height: 1.6;
+}
+.Shared-to-Others{
+    display: none;
+    height: fit-content;
+    justify-content: space-between;
+    background-color: var(--Very-Dark-Grayish-Blue);
+    width: fit-content;
+    border-radius: 8px;
+    padding: 4px 24px;
+    position: absolute;
+    right: -42px;
+    top: 138px;
+}
+.ShareItems > *{
+    padding: 4px;
+    margin: 2px;
+}
+.ShareItems{
+    display: flex;
+    position: relative;
+}
+.shareIcon{
+    display: none;
+}
+.ShareItems > p{
+    letter-spacing: 3px;
+    color: white;
+    opacity: 50%;
+}
+.ShareItems::after {
+    content: "";
+    position: absolute;
+    bottom: -21px; /* Adjust this value to position the arrow */
+    left: 50%; /* Center the arrow horizontally */
+    transform: translateX(-50%);
+    border-width: 10px; /* Adjust the size of the arrow */
+    border-style: solid;
+    border-color: var(--Very-Dark-Grayish-Blue) transparent transparent transparent; /* Adjust the colors to match your design */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
