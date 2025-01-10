@@ -1,0 +1,327 @@
+:root{
+    /* Primary Colors */
+    --Blue: hsl(246, 80%, 60%);
+    --Light-red-work: hsl(15, 100%, 70%);
+    --Soft-blue-play: hsl(195, 74%, 62%);
+    --Light-red-study: hsl(348, 100%, 68%);
+    --Lime-green-exercise: hsl(145, 58%, 55%);
+    --Violet-social: hsl(264, 64%, 52%);
+    --Soft-orange-self-care: hsl(43, 84%, 65%);
+
+
+    /* Neutral Colors */
+    --Very-dark-blue: hsl(226, 43%, 10%);
+    --Dark-blue: hsl(235, 46%, 20%);
+    --Desaturated-blue: hsl(235, 45%, 61%);
+    --Pale-Blue: hsla(236, 100%, 87%, 0.949);
+
+
+    --font-fot-titles: 18px;
+
+    --card-width: 320px;
+    --card-width2: 250px;
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--Very-dark-blue);
+}
+main{
+    padding: 12px;
+}
+.User{
+    min-width: 320px;
+    width: 320px;
+    height: fit-content;
+    color: white;
+    font-weight: 200;
+}
+.Userdetails{
+    width: inherit;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    background-color: var(--Blue);
+    position: relative;
+    z-index: 1;
+}
+.Userdetails img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 12px;
+    border: 4px solid white;
+}
+.report{
+    padding: 4px;
+}
+.report h1{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.logs-of-days{
+    width: inherit;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--Dark-blue);
+    padding: 24px  12px;
+    color: white;
+    position: relative;
+    bottom: 8px;
+    border-radius: 0 0 8px 8px;
+}
+.Userdetails{
+    border-radius: 12px;
+}
+.time-tracking{
+    display: grid;
+    grid-auto-rows: min-content;    
+}
+.card{
+    min-width: 320px;
+    width: var(--card-width);
+    height: fit-content;
+    background-color: var(--Dark-blue);  
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 24px;
+    border-radius: 12px;
+    align-items: center;
+}
+
+#card1 .backgroundCard::after{
+    content: "";
+    background: url(./images/icon-work.svg);
+    background-repeat: no-repeat;
+    background-position-x: 210px;
+    background-position-y: -8px;
+    background-size: 90px;
+    width: var(--card-width);
+    height: 80px;
+    border-radius: 12px;
+    background-color: var(--Light-red-work);
+    position: relative;
+    z-index: -1;
+    display: block;
+    border-radius: 8px;
+    top: 30px;
+}
+.container{
+    height: fit-content;
+    width: fit-content;
+}
+.cardtitle{
+    font-size: 1.5rem;
+}
+.hours{
+   font-size: 2rem;
+}
+.card > .icon , .card > .records{
+    width: fit-content;
+    justify-self: end;
+}
+.card > .cardtitle , .card > .hours{
+    width: fit-content;
+    justify-self: start;
+}
+#card2 .backgroundCard::after {
+    content: "";
+    background: url(./images/icon-play.svg);
+    background-repeat: no-repeat;
+    background-position-x: 210px;
+    background-position-y: -8px;
+    background-size: 90px;
+    width: var(--card-width);
+    height: 80px;
+    border-radius: 12px;
+    background-color: var(--Soft-blue-play);
+    position: relative;
+    z-index: -1;
+    display: block;
+    border-radius: 8px;
+    top: 30px;
+}
+#card3 .backgroundCard::after {
+    content: "";
+    background: url(./images/icon-study.svg);
+    background-repeat: no-repeat;
+    background-position-x: 210px;
+    background-position-y: -8px;
+    background-size: 90px;
+    width: var(--card-width);
+    height: 80px;
+    border-radius: 12px;
+    background-color: var(--Light-red-study);
+    position: relative;
+    z-index: -1;
+    display: block;
+    border-radius: 8px;
+    top: 30px;
+}
+#card4 .backgroundCard::after {
+    content: "";
+    background: url(./images/icon-exercise.svg);
+    background-repeat: no-repeat;
+    background-position-x: 210px;
+    background-position-y: -8px;
+    background-size: 90px;
+    width: var(--card-width);
+    height: 80px;
+    border-radius: 12px;
+    background-color: var(--Lime-green-exercise);
+    position: relative;
+    z-index: -1;
+    display: block;
+    border-radius: 8px;
+    top: 30px;
+}
+#card5 .backgroundCard::after {
+    content: "";
+    background: url(./images/icon-social.svg);
+    background-repeat: no-repeat;
+    background-position-x: 210px;
+    background-position-y: -8px;
+    background-size: 90px;
+    width: var(--card-width);
+    height: 80px;
+    border-radius: 12px;
+    background-color: var(--Violet-social);
+    position: relative;
+    z-index: -1;
+    display: block;
+    border-radius: 8px;
+    top: 30px;
+}
+#card6 .backgroundCard::after {
+    content: "";
+    background: url(./images/icon-self-care.svg);
+    background-repeat: no-repeat;
+    background-position-x: 210px;
+    background-position-y: -8px;
+    background-size: 90px;
+    width: var(--card-width);
+    height: 80px;
+    border-radius: 12px;
+    background-color: var(--Soft-orange-self-care);
+    position: relative;
+    z-index: -1;
+    display: block;
+    border-radius: 8px;
+    top: 30px;
+}
+.hours{
+    font-weight: 300;
+}
+.opacity{
+    color: var(--Pale-Blue);
+}
+.active{
+    color: white;
+}
+.card:hover{
+    cursor: pointer;
+}
+ span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+@media (min-width:768px) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .time-tracking{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 8px;
+    }
+    .card{
+        width: var(--card-width2);
+        min-width: unset;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+    }
+    #card1 .backgroundCard::after{
+        width: var(--card-width2);
+        background-position-x: 140px;
+    }
+    #card2 .backgroundCard::after{
+        width: var(--card-width2);
+        background-position-x: 140px;
+    }
+    #card3 .backgroundCard::after{
+        width: var(--card-width2);
+        background-position-x: 140px;
+    }
+    #card4 .backgroundCard::after{
+        width: var(--card-width2);
+        background-position-x: 140px;
+    }
+    #card5 .backgroundCard::after{
+        width: var(--card-width2);
+        background-position-x: 140px;
+    }
+    #card6 .backgroundCard::after{
+        width: var(--card-width2);
+        background-position-x: 140px;
+    }
+    .icon{
+        position: absolute;
+        right: 28px;
+    }
+    .hours{
+        font-size: 3rem;
+        margin: 8px 0;
+    }
+
+
+    .User{
+        max-height: 600px;
+        height: 600px;
+        padding: 28px 0 ;
+    }
+    .Userdetails{
+        height: 75%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 12px 24px
+    }
+    .Userdetails img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 12px 0;
+    }
+    .report h1{
+        font-size: 3rem;
+    }
+    .logs-of-days{
+        flex-direction: column;
+        height: 26%;
+        padding: 8px 24px;
+        font-size: 1.2rem;
+    }
+    .cardtitle{
+        font-size: 1.2rem;
+    }
+}
