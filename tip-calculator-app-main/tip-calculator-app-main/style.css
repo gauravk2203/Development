@@ -1,0 +1,195 @@
+:root{
+    --Strong-cyan: hsl(172, 67%, 45%);
+    --Very-dark-cyan: hsl(183, 100%, 15%);
+    --Dark-grayish-cyan: hsl(186, 14%, 43%);
+    --Grayish-cyan: hsl(184, 14%, 56%);
+    --Light-grayish-cyan: hsl(185, 41%, 84%);
+    --Very-light-grayish-cyan: hsl(189, 41%, 97%);
+    --White: hsl(0, 0%, 100%);
+
+    --top: 39px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Space Mono", serif;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--Light-grayish-cyan);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.logo{
+    position: absolute;
+    top: 36px;
+    font-size: 28px;
+    width: 110px;
+}
+.logo > p{
+    font-size: 28px;  
+    letter-spacing: 10px;
+    word-wrap: break-word;
+    color: var(--Very-dark-cyan);
+    font-weight: 500;
+}
+main {
+    background-color: var(--White);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left-Box , .Right-Box {
+    padding: 20px;
+    width: 350px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Bill, .NumberPeople {
+    margin-bottom: 20px;
+}
+.Bill > label, .NumberPeople > label {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.Bill > label > input, .NumberPeople > label > input {
+    padding: 10px;
+    margin-top: 5px;
+    background-color: var(--Very-light-grayish-cyan);
+    border-radius: 5px;
+    text-align: right;
+    font-weight: 700;
+    border: none;
+    color: var(--Very-dark-cyan);
+}
+input:focus{
+    outline-color: var(--Strong-cyan);
+}
+.tipPercent {
+    margin-bottom: 20px;
+    width: fit-content;
+}
+.Bill ::after{
+    content: '';
+    background: url(./images/icon-dollar.svg);
+    background-size: 100%;
+    width: 15px;
+    height: 32px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: var(--top);
+    left: 8px;
+}
+.outerdiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 8px 0;
+    width: fit-content;
+}
+.tipPercentValue {
+    background-color: var(--Very-dark-cyan);
+    color: var(--White);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+.tipPercentValue:hover {
+    background-color: var(--Strong-cyan);
+    color: var(--Very-dark-cyan);
+}
+.Right-Box{
+    background-color: var(--Very-dark-cyan);
+    border-radius: 16px;
+    color: var(--White);
+}
+.tip-display {
+    margin-bottom: 20px;
+}
+.tip-display > *{
+    padding: 8px;
+    margin: 4px;
+}
+.tipAmount, .totalTip {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.reset-button {
+    background-color: var(--Strong-cyan);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 28px;
+    transition: background-color 0.3s;
+}
+.tipamt-container > p , .box > p{
+    color: var(--Grayish-cyan);
+}
+#TipAmount , #Total-Tip-Amount{
+    color: var(--Strong-cyan);
+    font-size: 32px;
+}
+.reset-button:hover {
+    background-color: var(--Light-grayish-cyan);
+}
+.selected {
+    background-color: var(--Strong-cyan); 
+    color: var(--Very-dark-cyan); 
+}
+input::-webkit-inner-spin-button{
+    appearance: unset;
+}
+.NumberPeople ::after{
+    content: '';
+    background: url(./images/icon-person.svg);
+    background-size: 100%;
+    width: 15px;
+    height: 32px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: var(--top);
+    left: 8px;
+}
+#custom{
+    background-color: var(--Very-light-grayish-cyan);
+    /* text-align: right; */
+    cursor: default;
+}
+#custom ::placeholder{
+    text-align: center;
+}
+.error {
+    border: 1px solid red;
+  }
+
+@media (min-width:768px) {
+    .container{
+        flex-direction: unset;
+        max-width: 800px;
+        width: 800px;
+        height: 400px;
+    }
+
+}
