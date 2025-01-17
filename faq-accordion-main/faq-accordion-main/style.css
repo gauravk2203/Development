@@ -84,7 +84,8 @@ h1{
 }
 .faqs-heading img{
     width: 48px;
-    height: 48px;;
+    height: 48px;
+    cursor: pointer;
 }
 .faqs-content{
     margin: var(--four);
