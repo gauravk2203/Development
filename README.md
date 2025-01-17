@@ -15,7 +15,7 @@ Welcome to my **Frontend Mentor Projects** repository! 🌟 This folder contains
 
 ## ✨ Overview
 
-Frontend Mentor is an awesome platform that provides real-world projects for developers to tackle. The challenges help you level up your frontend skills while focusing on best practices like **responsive design**, **modern UI principles**, and **cross-browser compatibility**. This repository contains my solutions to various challenges, showcasing my ability to turn designs into pixel-perfect webpages.
+Frontend Mentor is an amazing platform that provides real-world projects for developers to tackle. The challenges help you level up your frontend skills while focusing on best practices like **responsive design**, **modern UI principles**, and **cross-browser compatibility**. This repository contains my solutions to various challenges, showcasing my ability to turn designs into pixel-perfect webpages. 🌟
 
 Feel free to explore, leave feedback, or even offer suggestions! 😊
 
@@ -31,6 +31,14 @@ Feel free to explore, leave feedback, or even offer suggestions! 😊
 | **Blog Preview Card**      | 📰 A captivating card for previewing blog posts, featuring images and text for an engaging experience. | ✅ Completed |
 | **Recipe Page**            | 🍲 A responsive recipe page that elegantly presents culinary creations with a clean and attractive layout. | ✅ Completed |
 | **Four Card Feature Section** | 🎨 A dynamic grid layout that makes feature cards interactive and visually engaging. | ✅ Completed |
+| **Article Preview Card**   | 📰 A detailed article preview card with hover effects and smooth animations. | ✅ Completed |
+| **FAQs Accordion Card**    | ❓ An interactive FAQ card where users can toggle answers with smooth animations. | ✅ Completed |
+| **Rating Card with Modal** | ⭐ A sleek rating component with a modal popup for submitting feedback. | ✅ Completed |
+| **Newsletter Sign-Up Page** | 📧 A responsive newsletter sign-up page with real-time validation. | ✅ Completed |
+| **Product Preview Component** | 🛍️ A product card showcasing essential details with a clean and responsive design. | ✅ Completed |
+| **Testimonial Grid**       | 💬 A beautifully arranged grid layout for customer testimonials. | ✅ Completed |
+| **Time Tracking Dashboard** | ⏱️ A functional and stylish dashboard for tracking time across multiple activities. | ✅ Completed |
+| **Tip Calculator**         | 💡 A handy tip calculator with real-time updates for bill splitting. | ✅ Completed |
 
 ---
 
@@ -56,16 +64,19 @@ To view or run any of these projects locally, follow the steps below:
 2. **Navigate to the project folder** of your choice:
    ```bash
    cd frontend-mentor-projects/QR-code
-   # For the next project:
-   cd frontend-mentor-projects/bento-grid-main/bento-grid-main
-   # For the next project:
+   cd frontend-mentor-projects/bento-grid-main
    cd frontend-mentor-projects/social-links-profile-main
-   # For the next project:
-   cd frontend-mentor-projects/blog-preview-card-main/blog-preview-card-main
-   # For the next project:
+   cd frontend-mentor-projects/blog-preview-card-main
    cd frontend-mentor-projects/recipe-page-main
-   # For the next project:
    cd frontend-mentor-projects/four-card-feature-section-master
+   cd frontend-mentor-projects/article-preview-component-master
+   cd frontend-mentor-projects/faq-accordion-main
+   cd frontend-mentor-projects/interactive-rating-component-main
+   cd frontend-mentor-projects/newsletter-sign-up-with-success-message-main
+   cd frontend-mentor-projects/product-preview-card-component-main
+   cd frontend-mentor-projects/testimonials-grid-section-main
+   cd frontend-mentor-projects/time-tracking-dashboard-main
+   cd frontend-mentor-projects/tip-calculator-app-main
    ```
 3. **Open the `index.html` file** in your browser to see the project in action.
 
@@ -97,3 +108,4 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 ---
 
 Thanks for visiting! 🌟 I hope you find inspiration and motivation from these projects. Feel free to connect or ask questions! 😊
+
